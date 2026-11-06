@@ -15,7 +15,7 @@ you want with the `-t` (target) flag.
 ## Prerequisites
 
 - [Flutter SDK](https://docs.flutter.dev/get-started/install) (developed on 3.47, stable channel)
-- A device, emulator, or browser/desktop target
+- Chrome (web target)
 
 ## Getting started
 
@@ -35,7 +35,7 @@ flutter run -t lib/exp4_mileage_calculator.dart
 flutter run -t lib/exp5_budget_calculator.dart
 ```
 
-Add `-d chrome` (web) or `-d linux` (desktop) to pick a target. Experiment 2 is
+Only the web platform is included, so add `-d chrome`. Experiment 2 is
 best viewed in a resizable window: the grid goes 2 → 3 → 4 columns and a
 category sidebar appears at 1000 px width and above.
 
